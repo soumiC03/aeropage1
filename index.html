@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aeropage Finance</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <!--nav bar starts-->
+  <section class="navigationbar">
+  <div class="container">
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="logo-dark" src="images/logo.jfif" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img id="logo-dark2" src="images/logo.jfif" alt=""></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item px-2">
+              <a class="nav-link " href="#">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Experts</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Assets</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Onboarding</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Landing
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Agency</a></li>
+                <li><a class="dropdown-item" href="#">Agency2</a></li>
+                <li><a class="dropdown-item" href="#">Charity</a></li>
+                <li><a class="dropdown-item" href="#">Company</a></li>
+                <li><a class="dropdown-item" href="#">Creative</a></li>
+                <li><a class="dropdown-item" href="#">Ebook</a></li>
+                <li><a class="dropdown-item" href="#">Finance</a></li>
+                <li><a class="dropdown-item" href="#">Hosting</a></li>
+                <li><a class="dropdown-item" href="#">Marketing</a></li>
+                <li><a class="dropdown-item" href="#">Marketing2</a></li>
+                <li><a class="dropdown-item" href="#">Marketing3</a></li>
+                <li><a class="dropdown-item" href="#">Photography</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+</section>
+  <!--nav bar ends-->
+  <!--banner starts-->
+  <div id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="banner-section pt-5 ">
+            <div class="bannertext position-absolute">
+              <h2>A Financial Planning and Growth Platform for Entrepreneurs</h2>
+              <h6 class="pt-4">Pellentesque lectus, with neque cursus sapien, massa laoreet varius. Ultricies faucibus
+                donec tellus
+                cras ornare. Aliquam mattis neque sed sit arcu egestas quisque quisque.</h6>
+            </div>
+
+          </div>
+          <div class="banner-button">
+            <div class="row">
+              <div class="d-flex flex-row col-md-6">
+                <div class="button1"> <button>Get Started <i class="fa-solid fa-arrow-right"
+                      style="color: #edeff2;"></i></button>
+                </div>
+              </div>
+              <div class="d-flex flex-column col-md-6">
+                <div class="button2 py-2"> <button><i class="fa-solid fa-circle-play fa-2xl"
+                      style="color: #df9168;"></i> </button> <span>See How It Works</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="banner-section">
+            <div class="girlimage">
+              <img class="z-2 w-100 img-fluid position-absolute" src="images/img-1-DnU0ejq4.png" alt="">
+            </div>
+            <div class="orangeball">
+              <img class="z-1 w-100 img-fluid position-absolute" src="images/orange ball.png" alt="">
+            </div>
+            <div class="blueball">
+              <img class="z-0 w-100 img-fluid position-absolute" src="images/blue ball.png" alt="">
+            </div>
+            <div class="review-section z-3 position-absolute">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide border-rounded">
+                    <div class="reviews py-3">
+                      <div class="row mx-4">
+                        <div class="col-4 col-lg-4 col-md-4 col-sm- col-xl-4 col-xxl-4">
+                          <div class="review-image">
+                          </div>
+                        </div>
+                        <div class="col-6 col-lg-6 col-md-6 col-sm- col-xl-6 col-xxl-6">
+                          <div class="review-text">
+                            <p>Very Convenient to use project manager!</p>
+                            <div class="stars">
+                              <div class="row">
+                                <div class="col-2 col-lg-2 col-md-2 col-sm- col-xl-2 col-xxl-2">
+                                  <div class="icon d-flex flex-row">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="reviews py-3">
+                      <div class="row mx-auto">
+                        <div class="col-4 col-lg-4 col-md-4 col-sm- col-xl-4 col-xxl-4">
+                          <div class="review-image2">
+                          </div>
+                        </div>
+                        <div class="col-6 col-lg-6 col-md-6 col-sm-6 col-xl-6 col-xxl-6">
+                          <div class="review-text">
+                            <p>Very Convenient to use project manager!</p>
+                            <div class="stars">
+                              <div class="row">
+                                <div class="col-3 col-lg-3 col-md-3 col-sm- col-xl-3 col-xxl-3">
+                                  <div class="icon d-flex flex-row">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <!--banner  ends->
+  <--scrolling section  starts--->
+  <section id="scrolling-text">
+    <div class="text-slide-dark">
+
+    
+    <div class="text-slide">
+      <div class="textscroll d-flex flex-row">
+        <h3 class="textscroll px-5">UI-UX Experience</h3>
+        <h3 class="textscroll px-5">Web Development</h3>
+        <h3 class="textscroll px-5">Digital Marketing</h3>
+        <h3 class="textscroll px-5">Product Design</h3>
+        <h3 class="textscroll px-5">Mobile Solution</h3>
+        <h3 class="textscroll px-5">UI-UX Experience</h3>
+        <h3 class="textscroll px-5">Web Development</h3>
+        <h3 class="textscroll px-5">Digital Marketing</h3>
+        <h3 class="textscroll px-5">Product Design</h3>
+        <h3 class="textscroll px-5">Mobile Solution</h3>
+  
+      </div>
+    </div>
+  </div>
+   
+
+  </section>
+
+
+  <!--scrolling section  ends->
+
+    <--expert section starts-->
+  <section id="expert">
+    <div class="container">
+      <div class="expertsection text-center py-5">
+        <div class="d-flex flex-column">
+          <div class="p-2"><span>OUR EXPERTS</span></div>
+          <div class="p-2">
+            <h3>You're the expert in business; we're <br> the numbers experts.</h3>
+          </div>
+        </div>
+
+      </div>
+      <div class="expertcomment py-4">
+        <div class=" row mx-auto g-4">
+          <div class="col-md-6">
+            <div class="d-flex flex-row py-4">
+              <div class="expertimage"></div>
+              <div class="imagetitle px-2">
+                <div class="p-2">
+                  <h3>Eric Houston</h3>
+                </div>
+                <div class="p-2"> <span>Founder & CEO of Luminous</span></div>
+              </div>
+            </div>
+            <div class="imagetext">
+              <h4>"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim. Sed fringilla mauris sit amet nibh.Sed consequat."</h4>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex flex-row py-4">
+              <div class="expertimage2"></div>
+              <div class="imagetitle px-2">
+                <div class="p-2">
+                  <h3>Robby Winston</h3>
+                </div>
+                <div class="p-2"> <span>CEO of Product</span></div>
+              </div>
+            </div>
+            <div class="imagetext">
+              <h4>"Vault's expert support enabled us to secure the necessary capital for our expansion. Plus,
+                it's quicker and more cost- effective than hiring a consultant. Sed fringilla mauris sit amet
+                nibh.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,"</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <!--expert section ends-->
+  <!--features section starts-->
+  <section id="featuresection1">
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col-md-6">
+          <div class="feature">
+            <div class="feature-text">
+              <span>HIGHLIGTED PROJECTS</span>
+              <h3>Streamline Data Integrations: Simplify finance with Vault</h3>
+              <p>Save time on financial tasks by automating them with Vault. Consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button>Read More <i class="fa-solid fa-arrow-right"></i>
+                </i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature">
+            <div class="feature-image">
+              <img src="images/img-8-ComuI3ye.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="featuresection2">
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col-md-6">
+          <div class="feature">
+            <div class="feature-image">
+              <img src="images/img-9-BqeGcHZl.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature">
+            <div class="feature-text ">
+              <span>INVESTOR READY REPORTING</span>
+              <h3>Streamline Data Integrations: Simplify finance with Vault</h3>
+              <ul>
+                <li>
+                  <h6>Demonstrate your firm grasp of business finances by having instant access.</h6>
+                </li>
+                <li>
+                  <h6>Effortlessly collaborate with investors by sharing live reports and models.</h6>
+                </li>
+                <li>
+                  <h6>Simplify investor collaboration by seamlessly sharing real-time Sheets.</h6>
+                </li>
+              </ul>
+
+              <button>Read More <i class="fa-solid fa-arrow-right"></i>
+                </i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="featuresection3">
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col-md-6">
+          <div class="feature">
+            <div class="feature-text">
+              <span>HIGHLIGTED PROJECTS</span>
+              <h3>Streamline Data Integrations: Simplify finance with Vault</h3>
+              <p>Save time on financial tasks by automating them with Vault. Consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button>Read More <i class="fa-solid fa-arrow-right"></i>
+                </i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="feature">
+            <div class="position-relative advicefloater d-xl-block d-none ">
+              <div class="z-2 position-absolute advice-text">
+                <h3>Obtain Financing and Fundraising Advice</h3>
+                <p>Schedule a free consultation with our financing and fundraising expert.</p>
+              </div>
+
+            </div>
+            <div class="feature-image position-relative">
+              <img class="z-1 img-fluid" src="images/img-10-CwzfZ4yI.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+        <div class="position-relative supportfloater  d-xl-block d-none">
+          <div class="z-3 position-absolute support-text">
+            <span>
+              <h3 class="text-black">Priority Support</h3>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--features section ends-->
+  <!--Assets section starts-->
+  <section id="assetsection">
+    <div class="container">
+      <div class="assets">
+        <div class="asset-text text-center py-5">
+          <div class="d-flex flex-column ">
+            <div class="p-2"><span>OUR ASSETS</span></div>
+            <div class="p-2">
+              <h3>Valuable Assets</h3>
+            </div>
+          </div>
+
+        </div>
+        <div class="asset-card">
+          <div class="row mx-auto">
+            <div class="col-md-4">
+              <div class="card w-100" style="width: 18rem;">
+                <div class="cardimg overflow-hidden">
+                  <img src="images/card img 1.jpg" class="card-img-top" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h4 class="card-title pt-3">10 Straightforward Techniques to Improve by 1% Daily</h4>
+                  <p class="card-text pt-3">Customers are constantly seeking ways to enhance their lives. Utilize this
+                    phrase as a substitute for...</p>
+                  <button>Read More <i class="fa-solid fa-arrow-right"></i>
+                    </i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card w-100" style="width: 18rem;">
+                <div class="cardimg overflow-hidden">
+                  <img src="images/card img 2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title pt-3">Explore 5 Astonishing Uses of Artificial Intelligence</h4>
+                  <p class="card-text pt-3">Customers appreciate simplicity and perceive it as excellent customer
+                    service. Customers strongly dislike complexity...</p>
+                  <button>Read More <i class="fa-solid fa-arrow-right"></i>
+                    </i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card w-100" style="width: 18rem;">
+                <div class="cardimg overflow-hidden">
+                  <img src="images/card img 3.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title pt-3">This Long-Awaited Innovation Could Finally Transform the World</h4>
+                  <p class="card-text pt-3">This phrase is a variation of "new and improved," indicating that the
+                    product is the most up-to-date and advanced.</p>
+                  <button>Read More <i class="fa-solid fa-arrow-right"></i>
+                    </i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--Assets section ends-->
+  <!--Onboarding section starts-->
+  <section id="onboarding">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-6">
+          <div class="onboarding-section">
+            <div class="onboarding-text">
+              <h3><span>Smooth Onboarding</span></h3>
+              <h2>Effortless Integrations for a Quick Start</h2>
+              <p>Link Vault with your current
+                financial technology stack to simplify data comprehension and decision-making.</p>
+            </div>
+            <div class="row g-4 py-5">
+              <div class="col-xxl-4 col-md-4">
+                <div class="onboarding-boxes">
+                  <div class="img-box">
+                    <img src="images/onb img1_files/1-jg6ak9OC.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-md-4">
+                <div class="onboarding-boxes">
+                  <div class="img-box">
+                    <img src="images/onb img1_files/2-Cwoqmxj3.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-md-4">
+                <div class="onboarding-boxes">
+                  <div class="img-box">
+                    <img src="images/onb img1_files/3-azZlzWdS.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-md-4">
+                <div class="onboarding-boxes">
+                  <div class="img-box">
+                    <img src="images/onb img1_files/4-CirBbC_M.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-md-4">
+                <div class="onboarding-boxes">
+                  <div class="img-box">
+                    <img src="images/onb img1_files/5-CPOT8r6N.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-md-4">
+                <div class="onboarding-boxes">
+                  <div class="img-box">
+                    <img src="images/onb img1_files/6-BqUhSAHC.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="onboarding-section">
+            <div class="onboarding-image">
+              <div class="boy-image">
+                <img class="z-0 position-absolute img-fluid" src="images/onboarding img1.jpg" alt="">
+              </div>
+              <div class="girl2-image">
+                <img class="z-1 position-absolute img-fluid" src="images/onboarding img2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Onboarding section ends-->
+  <!--Form section starts-->
+  <section id="formsection">
+    <div class="container">
+      <div class="formbox-dark">
+      <div class="formbox">
+        <div class="formtextbox text-center">
+          <h3>Obtain Your Customizable Financial <br> Survival Plan.</h3>
+          <p>Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit <br> leo quis
+            pede.</p>
+
+        </div>
+          <div class="forminput">
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="" placeholder="Type Your Email ">
+              <button><i class="input-group-text fa-solid fa-magnifying-glass " style="color: #080808;"></i></button>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--Form section ends-->
+  <!--Footer section starts-->
+ <footer id="footersection">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-md-5 py-4">
+        <div class="footer">
+            <img id="logo-dark3" src="images/logo.jfif" alt="">
+            <p class="py-3">Integer auctor aliquet martor, sed lorem malesuada eros blandit eget. Proin lacinia mortoc id odio vestibulum.</p>
+            <div class="formholder position-relative">
+              <input class="position-relative px-3" type="text" name="email" placeholder="Enter Your Email">
+              <button class="position-absolute"><i class="fa-solid fa-arrow-right" ></i></button>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-2 py-4">
+        <div class="footer ">
+          <div class="footer-content d-flex flex-column justify-content-start">
+            <h3>Company</h3>
+             <a href="">About</a>
+              <a href="">Services</a>
+              <a href="">Portfolio</a>
+              <a href="">Blog</a>
+              <a href="">Contact</a>
+             </div>
+        
+        </div>
+      </div>
+      <div class="col-md-3 py-4">
+        <div class="footer ">
+          <div class="footer-content d-flex flex-column gap-3">
+            <h3>Social Media</h3>
+            <div class="footer-icons d-flex flex-row gap-3">
+              <button><i class="fa-brands fa-facebook-f"></i></button><p>Facebook</p> 
+            </div>
+            <div class="footer-icons d-flex flex-row gap-3">
+              <button><i class="fa-brands fa-instagram" ></i></i></button><p>Instagram</p> 
+            </div>
+            <div class="footer-icons d-flex flex-row gap-3">
+              <button><i class="fa-brands fa-twitter" ></i></button><p>Twitter</p> 
+            </div>
+            <div class="footer-icons d-flex flex-row gap-3">
+              <button><i class="fa-brands fa-linkedin-in"></i></i></button><p>Linkedin</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 py-4">
+        <div class="footer">
+          <div class="footer-content d-flex flex-column justify-content-start">
+            <h3>Legal & Press</h3>
+             <a href="">Privacy Policy</a>
+              <a href="">Terms & Conditions</a>
+              <a href="">Portfolio</a>
+              <a href="">Presskit</a>
+             </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+ </footer>
+
+
+  <!--Footer section ends-->
+  <!--Scrollup starts-->
+
+  <a href="#" class ="to-top d-flex justify-content-center">
+    <i class="fa-solid fa-chevron-up"></i>
+  </a>
+  <!--Scrollup ends-->
+
+  <div class="dark-mode d-flex justify-content-center">
+    <img id="dark-icon" src="images/onb img1_files/moon.jfif" alt="">
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
